@@ -71,6 +71,11 @@ h2{
     text-align: left;
 }
 
+#musica{
+    display: flex;
+    flex-direction: column;
+}
+
 #musica h2 {
     margin-bottom: 15px;
 }
@@ -79,10 +84,35 @@ h2{
     color: black;
     text-decoration: none;
     transition: all 200ms ease-in-out;
+    padding: 5px;
 }
 
 #musica a:hover{
     color: #c73026;
+}
+
+#musica button{
+    cursor: pointer;
+    width: 100px;
+    border: 1px solid #c73026;
+    border-radius: 20px;
+    background-color: #c73026;
+    padding: 5px;
+    color: #fff;
+    margin-top: 10px;
+    transition: all 200ms ease-in-out;
+}
+
+#musica button:hover{
+    background-color: transparent;
+    color: #c73026;
+}
+
+#musica pre{
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 2em;
 }
 
 #sobre, #integrantes, #albuns, #musica{
@@ -93,7 +123,7 @@ h2{
 footer{
     text-align: center;
     padding: 30px;
-    margin-top: 20px;
+    margin-top: 40px;
     background-color: #cecccc;
 }
 
