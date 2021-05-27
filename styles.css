@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fdfdfd;
+}
+
+header{
+    background-color: #cecccc;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    width: 1050px;
+    margin: 0 auto;
+}
+
+h2{
+    color: #c73026;
+    font-weight: normal;
+}
+
+.logo{
+    width: 300px;
+}
+
+.titulo{
+    text-align: center;
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+
+.titulo::after{
+    content: '';
+    display: block;
+    width: 510px;
+    height: 3px;
+    background: #c73026;
+    margin: 0 auto;
+}
+
+#sobre p{
+    margin-top: 20px;
+    line-height: 2em;
+    text-align: justify;
+}
+
+#integrantes ul{
+    margin-top: 20px;
+    list-style: none;
+}
+
+#integrantes ul li{
+    padding-top: 10px;
+}
+
+#albuns table{
+    margin-top: 20px;
+    width: 400px;
+    border: 2px solid #c73026;
+    padding: 15px;
+}
+
+#albuns table thead{
+    text-align: left;
+}
+
+#musica h2 {
+    margin-bottom: 15px;
+}
+
+#musica a {
+    color: black;
+    text-decoration: none;
+    transition: all 200ms ease-in-out;
+}
+
+#musica a:hover{
+    color: #c73026;
+}
+
+#sobre, #integrantes, #albuns, #musica{
+    margin-top: 50px;
+}
+
+
+footer{
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+    background-color: #cecccc;
+}
+
+footer h6{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+footer h6 span{
+    color: #c73026;
+}
+
+
